@@ -1,0 +1,13 @@
+members_before=3 pgid=61535 members_after=0 
+PASS 1 normal stop kills server and child
+PASS 2 EXIT trap after failure
+PASS 3 SIGINT cleanup
+PASS 4 SIGTERM cleanup
+PASS 5 startup timeout
+PASS 6 occupied port refused, listener alive
+rc=0 caller_pgrp=61492 server_pgid=61807 server_pid=61807 stop_rc=0 sibling_alive=yes members_after=0 
+PASS 7 delayed session: new group recorded, caller's group untouched
+rc=1 sibling_alive=yes pgid_var=[] 
+PASS 8 missing handshake: start fails without signaling any group
+PASS 9 stop_server refuses the caller's group
+passed=9 failed=0

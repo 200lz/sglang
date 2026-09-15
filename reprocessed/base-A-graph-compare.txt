@@ -1,0 +1,181 @@
+{
+ "status": "complete",
+ "reasons": [],
+ "mixed_tag": "probe-base-A-graph-mixed",
+ "ref_tag": "probe-base-A-graph-ref",
+ "P_mixed_batches": 3,
+ "P_mixed_mask_rows": [
+  null,
+  null,
+  null
+ ],
+ "claimed_depths": [
+  1984,
+  4024,
+  4784
+ ],
+ "depths": [
+  {
+   "depth": 1984,
+   "mixed_slot": 35,
+   "mixed_kind": "unfinished",
+   "mixed_claim_tracked_in_mixed_forward": false,
+   "mixed_fp": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ref_fp": [
+    310.5528100765682,
+    1430.7130031424667,
+    4.90625,
+    -256.2388334274292,
+    72359.06933250623
+   ],
+   "mixed_equals_ref": false,
+   "mixed_is_all_zero": true
+  },
+  {
+   "depth": 4024,
+   "mixed_slot": 36,
+   "mixed_kind": "unfinished",
+   "mixed_claim_tracked_in_mixed_forward": false,
+   "mixed_fp": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ref_fp": [
+    332.35780209465474,
+    1486.9295754030022,
+    4.84375,
+    -398.23708391189575,
+    89859.94775657814
+   ],
+   "mixed_equals_ref": false,
+   "mixed_is_all_zero": true
+  },
+  {
+   "depth": 4784,
+   "mixed_slot": 37,
+   "mixed_kind": "unfinished",
+   "mixed_claim_tracked_in_mixed_forward": false,
+   "mixed_fp": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "ref_fp": [
+    322.8947256618951,
+    1603.6867327705127,
+    4.8125,
+    -353.2215073108673,
+    86905.5369914848
+   ],
+   "mixed_equals_ref": false,
+   "mixed_is_all_zero": true
+  }
+ ],
+ "restores": {
+  "R": {
+   "mixed": {
+    "rid": "R-mixed",
+    "matched": 4784,
+    "slot": 37,
+    "fp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ref": {
+    "rid": "R-ref",
+    "matched": 4784,
+    "slot": 5,
+    "fp": [
+     322.8947256618951,
+     1603.6867327705127,
+     4.8125,
+     -353.2215073108673,
+     86905.5369914848
+    ]
+   },
+   "same_depth": true,
+   "content_equal": false
+  },
+  "P2": {
+   "mixed": {
+    "rid": "P2-mixed",
+    "matched": 4784,
+    "slot": 37,
+    "fp": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ref": {
+    "rid": "P2-ref",
+    "matched": 4784,
+    "slot": 5,
+    "fp": [
+     322.8947256618951,
+     1603.6867327705127,
+     4.8125,
+     -353.2215073108673,
+     86905.5369914848
+    ]
+   },
+   "same_depth": true,
+   "content_equal": false
+  }
+ },
+ "answers_mixed": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "662",
+   false,
+   null
+  ]
+ },
+ "answers_ref": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "14",
+   true,
+   null
+  ]
+ },
+ "verdict": "mismatch",
+ "all_mixed_depths_equal_ref": false,
+ "all_restores_equal_ref": false
+}
+VERDICT: mismatch

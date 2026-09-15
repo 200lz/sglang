@@ -1,0 +1,28 @@
+{
+  "P_mixed_claims": 7,
+  "P_mixed_claims_tracked_in_a_forward_with_one_token_tails": 0,
+  "P_mixed_batches_with_decode_rows": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "P_mixed_donations": [],
+  "R_mixed_restore": null,
+  "R_mixed_restore_matches_ref_content": null,
+  "depth_verdicts": {},
+  "answers_mixed_correct": {
+    "P": false,
+    "R": false,
+    "P2": false
+  },
+  "answers_ref_correct": {
+    "P": false,
+    "R": false,
+    "P2": false
+  }
+}
+mixed_batches_logged=10

@@ -1,0 +1,60 @@
+{
+ "mixed_tag": "probe-fix-C-eager-mixed",
+ "ref_tag": "probe-fix-C-eager-ref",
+ "P_mixed_batches": 3,
+ "P_mixed_mask_rows": [
+  null,
+  null,
+  null
+ ],
+ "depths": [],
+ "all_mixed_depths_equal_ref": false,
+ "restores": {
+  "R": {
+   "mixed": null,
+   "ref": null,
+   "same_depth": null,
+   "content_equal": null
+  },
+  "P2": {
+   "mixed": null,
+   "ref": null,
+   "same_depth": null,
+   "content_equal": null
+  }
+ },
+ "answers_mixed": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "14",
+   true,
+   null
+  ]
+ },
+ "answers_ref": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "14",
+   true,
+   null
+  ]
+ }
+}

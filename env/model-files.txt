@@ -1,0 +1,18 @@
+total 9123964
+drwxr-xr-x 3 root root       4096 Sep 14 17:00 .
+drwxr-xr-x 7 root root       4096 Sep 14 16:59 ..
+drwxr-xr-x 3 root root         25 Sep 14 16:59 .cache
+-rw-r--r-- 1 root root       1570 Sep 14 16:59 .gitattributes
+-rw-r--r-- 1 root root      11544 Sep 14 16:59 LICENSE
+-rw-r--r-- 1 root root      77661 Sep 14 16:59 README.md
+-rw-r--r-- 1 root root       7756 Sep 14 16:59 chat_template.jinja
+-rw-r--r-- 1 root root       3161 Sep 14 16:59 config.json
+-rw-r--r-- 1 root root    3353259 Sep 14 16:59 merges.txt
+-rw-r--r-- 1 root root 5329398688 Sep 14 17:00 model.safetensors-00001-of-00002.safetensors
+-rw-r--r-- 1 root root 3990429408 Sep 14 17:00 model.safetensors-00002-of-00002.safetensors
+-rw-r--r-- 1 root root      76196 Sep 14 16:59 model.safetensors.index.json
+-rw-r--r-- 1 root root        390 Sep 14 16:59 preprocessor_config.json
+-rw-r--r-- 1 root root   12807982 Sep 14 16:59 tokenizer.json
+-rw-r--r-- 1 root root      16710 Sep 14 16:59 tokenizer_config.json
+-rw-r--r-- 1 root root        385 Sep 14 16:59 video_preprocessor_config.json
+-rw-r--r-- 1 root root    6722759 Sep 14 16:59 vocab.json

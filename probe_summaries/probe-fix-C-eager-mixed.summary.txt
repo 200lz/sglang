@@ -1,0 +1,1 @@
+{"phase": "mixed", "answers": {"P": ["14", true, 4819, null], "R": ["688", true, 4820, null], "P2": ["14", true, 4819, null]}, "P_claims": [], "P_mixed_batches": 3, "P_donations": [], "R_restore": [], "P2_restore": []}

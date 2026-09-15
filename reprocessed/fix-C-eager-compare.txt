@@ -1,0 +1,70 @@
+INCOMPLETE: mixed phase claimed no checkpoint depth; R: no mixed-phase restore; R: no reference restore; P2: no mixed-phase restore; P2: no reference restore
+{
+ "status": "incomplete",
+ "reasons": [
+  "mixed phase claimed no checkpoint depth",
+  "R: no mixed-phase restore",
+  "R: no reference restore",
+  "P2: no mixed-phase restore",
+  "P2: no reference restore"
+ ],
+ "mixed_tag": "probe-fix-C-eager-mixed",
+ "ref_tag": "probe-fix-C-eager-ref",
+ "P_mixed_batches": 3,
+ "P_mixed_mask_rows": [
+  null,
+  null,
+  null
+ ],
+ "claimed_depths": [],
+ "depths": [],
+ "restores": {
+  "R": {
+   "mixed": null,
+   "ref": null,
+   "same_depth": null,
+   "content_equal": null
+  },
+  "P2": {
+   "mixed": null,
+   "ref": null,
+   "same_depth": null,
+   "content_equal": null
+  }
+ },
+ "answers_mixed": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "14",
+   true,
+   null
+  ]
+ },
+ "answers_ref": {
+  "P": [
+   "14",
+   true,
+   null
+  ],
+  "R": [
+   "688",
+   true,
+   null
+  ],
+  "P2": [
+   "14",
+   true,
+   null
+  ]
+ },
+ "verdict": null
+}
